@@ -1,0 +1,18 @@
+a{
+    font-family: fantasy;
+}
+
+
+#imagenCards{
+height: 100px;
+}
+
+#imagenRedes{
+    height: 50px;
+}
+
+#nombreRed{
+    text-decoration: none;
+    color: black;
+}
+
