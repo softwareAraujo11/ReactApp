@@ -14,7 +14,6 @@ function Cuerpo(){
     <div class="col-sm-2 text-center">
     <Redes/>
     </div>
-
   </div>
 </div>
 

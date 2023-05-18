@@ -1,7 +1,10 @@
 import './estilos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Carousel } from 'bootstrap';
+
 const Carrusel = () => {
   return (
-<div>
+<div id='tamañocarrusel'>
 <div id="carouselExampleIndicators" className="carousel slide">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -10,13 +13,13 @@ const Carrusel = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-    <img id='imagenCards'src={require(`../imagenes/foto_americana.jpg`)} className="d-block w-100" alt='Americana '/>
+    <img id='imagenCarrusel'src={require(`../imagenes/foto_americana.jpg`)} className="d-block w-100" alt='Americana '   />
     </div>
     <div className="carousel-item">
-    <img id='imagenCards'src={require(`../imagenes/foto_americana.jpg`)} className="d-block w-100" alt='Americana '/>
+    <img id='imagenCarrusel'src={require(`../imagenes/foto_hawaiana.jpg`)} className="d-block w-100" alt='Americana '/>
     </div>
     <div className="carousel-item">
-    <img id='imagenCards'src={require(`../imagenes/foto_americana.jpg`)} className="d-block w-100" alt='Americana '/>
+    <img id='imagenCarrusel'src={require(`../imagenes/foto_pepperoni.jpg`)} className="d-block w-100" alt='Americana '/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -31,9 +34,5 @@ const Carrusel = () => {
 </div>
   )
 }
-
-
-
-
 
 export default Carrusel

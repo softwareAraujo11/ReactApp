@@ -1,10 +1,15 @@
-a{
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
     font-family: fantasy;
 }
 
 
-#imagenCards{
-height: 100px;
+#imagenCarrusel{
+height: 100%;
+width: 100%;
 }
 
 #imagenRedes{
@@ -15,4 +20,163 @@ height: 100px;
     text-decoration: none;
     color: black;
 }
+
+#tamañocarrusel{
+    margin-left: 30%;
+    height: 400px;
+    width: 500px;
+    margin-top: 5%;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .nav-item a:hover {
+    background-color: #eee;
+  }
+  
+  #h1formulario{
+margin-left: 25%;
+font-family: fantasy;
+  }
+
+#imagenUbicacion{
+  height: 30px;
+  width: 30px;
+}
+
+#divLogoNum{
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+}
+
+#lugar{
+  text-align: center;
+  background-color: #102C54;
+  color: white;
+}
+
+#verUbicacion{
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+#contenedorUbicacion{
+  border: 2px solid #000;
+  border-radius: 10px; 
+  margin: 10px;
+  padding: 10px;
+}
+
+.tarjeta{
+  width: 400px;
+  height: auto;
+  border: 2px ;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+#imagenCards{
+  height: 100%;
+  width: 100%;
+}
+
+.promo{
+  text-align: center;
+}
+.redes-sociales {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
+}
+
+.tarjeta2{
+  width: 400px;
+  height: auto;
+  border: 1px ;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+h3{
+  color: rgb(184, 12, 12);
+}
+
+.eps{
+  color: rgb(184, 12, 12);
+ text-align: center;
+ padding: 50px;
+ font-size: 50px;
+ 
+ }
+
 

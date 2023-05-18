@@ -9,7 +9,7 @@ function Cards(props){
             alt='Americana '
             />
             <div class="content" >
-            <h2>{ props.tittle}</h2>
+            <h2>{props.tittle}</h2>
             <p>{props.ingredientes}</p>
         </div>
             </div>
@@ -17,3 +17,4 @@ function Cards(props){
     );
 }
 export default Cards;
+
